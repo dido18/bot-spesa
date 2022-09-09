@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
-token = "1152313606:AAFmwRBXvksOV5W2QA7rWZcnNqy4p7zBKqA"
+token = "<TOKEN>"
 
 updater = Updater(token=token, use_context=True)
 
